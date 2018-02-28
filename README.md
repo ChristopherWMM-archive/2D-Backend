@@ -6,18 +6,28 @@ A work in progress backend for top down 2D games in Unity.
 
 ### To-Do:
 #### Behavior Script
-##### 	Movement Commands
+#### 	Movement Commands
 
 - [x] Move <direction> <duration>
 
+      - Causes the Character to move in the given direction for the duration.
+
+        ​
+
 - [x] Stop <duration>
+
+      - Causes the Character to stop preforming actions for the duration.
+
+        ​
 
 - [x] Face <direction> <duration>
 
-      ​
+      - Causes the Character to face the given direction for the duration.
 
 
-##### Example:
+
+#### Example:
+
 ```yaml
 # > Commands
 # move <direction> <duration>
@@ -49,7 +59,8 @@ move down-left .25
 
 
 
-##### Results:
+#### Results:
+
 ![Movement Script Gif][movement-script-gif]
 
 
@@ -63,9 +74,9 @@ move down-left .25
 [movement-script-gif]: https://i.imgur.com/YktUSig.gif
 
 [christopher-profile]: https://github.com/ChristopherWMM
-[christopher-avatar]: https://avatars0.githubusercontent.com/u/9260792?s=125&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;v=4
+[christopher-avatar]: https://avatars0.githubusercontent.com/u/9260792?s=125&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;v=4
 
 [xavier-profile]: https://github.com/xkel
-[xavier-avatar]: https://avatars.githubusercontent.com/u/22240889?s=125&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;v=4
+[xavier-avatar]: https://avatars.githubusercontent.com/u/22240889?s=125&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;v=4
 
 
